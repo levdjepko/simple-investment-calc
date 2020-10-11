@@ -8,7 +8,7 @@ def calculateTenYears(number, additionalContribution, numberOfYears):
         #7% yearly, divided by 100 (%), divided by 12 month in a year
         #additional contribution is a monthly contribution
     formattedTotal = locale.currency(totalAmount, grouping = True) #format the string to show dollars and commas between digits
-    print(f"In {numberOfYears} years your investment account would be around...")
+    print(f"In {numberOfYears} years your investment account would be around...") #works after python 3.6
     print(formattedTotal)    
     
 print('Initial amount: ')
